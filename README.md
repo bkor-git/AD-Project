@@ -1,12 +1,16 @@
 # Overview
-Welcome to AD-Project! This repository is home to a fantastic project that aims to generate a synthetic dataset using Unity environment. The purpose of the project is to detect anomaly in the crowd. 
+Welcome to AD-Project! This repository is home to a fantastic project that aims to generate to detect anomaly in the crowd. In this project, we work with a number of agents to simulate crowd behaviour in the different scenarios such as train station waiting area. We discover how patterns of movement can be formed from the simpliest of rules that mimic crowd behaviour in the real world. By the end, we have created a crowded scene with humanoid characters walking and avoiding each other as well as reaching to their goals step by step. 
 
 ## Table Of Contents 
 1. [Dataset](#dataset)
    - [Unity Environment](#unity-environment)
    - [Data Format](#data-format)
    - [Usage](#usage)
+
 2. [Simulation](#simulation)
+   - [Scripts](#scripts)
+   - [Build Files](#build-files)
+
 3. [Code](#code)
    - [Bug Reports](#bug-reports)
    - [Feature Requests](#feature-requests)
@@ -46,7 +50,19 @@ You can utilize these CSV files to perform various time-series analysis tasks, s
 *	Detecting patterns or anomalies in the movement behavior of agents.
 *	Applying machine learning or statistical techniques to predict anomalies or future position based on historical data.
 
+
 ## Simulation
+### Scripts
+The Scripts section delves into the codes that powers the simulation. It includes explanations of the scripts responsible for simulating passenger behavior, managing events within the virtual train station waiting area.
+* **DropCylinder**:  
+*	**ExportCsv**: 
+*	**Passenger**:  
+*	**PoissonArrival**: The code for controlling the arrival time of the agents in the scene.
+*	**Wander**: Script to control the green agents which are wandering around in the scene. 
+
+### Build Files
+The Build Files section provides practical information for users who want to experience the simulation firsthand. It includes instructions on how to run the executable files that bring your simulation to life, and export the information of the agents as csv files. 
+
 
 ## Code
 Write explanation about the code here!!!
