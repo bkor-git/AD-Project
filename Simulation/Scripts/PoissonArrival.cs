@@ -1,3 +1,4 @@
+//Script for Poisson Arrival of the agents in the scene. The lambdaVal and eventVal are changable values in unity environment.
 using System;
 using System.Collections;
 using System.Collections.Generic;
