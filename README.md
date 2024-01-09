@@ -1,5 +1,5 @@
 # Overview
-Welcome to AD-Project! This repository is home to a fantastic project that aims to generate a synthetic dataset using Unity environment. The purpose of the project is to detect anomaly in the crowd.
+Welcome to AD-Project! This repository is home to a fantastic project that aims to generate a synthetic dataset using Unity environment. The purpose of the project is to detect anomaly in the crowd. 
 
 ## Table Of Contents 
 1. [Dataset](#dataset)
@@ -16,11 +16,8 @@ Welcome to AD-Project! This repository is home to a fantastic project that aims 
 6. [Contact](#contact)
 
 ## Dataset
-The CSV files contain time-series data of agents’ coordinates, acceleration, rotation, and
-identity. The data was exported from the Unity simulation for normal scenario and captured at 
-regular intervals of 0.1 (10 Hz) and 0.02 (50 Hz) seconds. Each row represents a specific 
-instance of measurement for an agent, and each column corresponds to a particular data 
-attribute. The following attributes are included in the dataset:
+Within this folder, you will find a synthetic dataset closely mirroring accelerometer sensor data. The information is meticulously extracted from agents within manually crafted scenes, showcasing both normal and abnormal scenarios.
+The CSV files contain time-series data of agents’ coordinates, acceleration, rotation, and identity. The data was exported from the Unity simulation for normal and abnormal scenario and captured at regular intervals of 0.02 (50 Hz) seconds. Each row represents a specific instance of measurement for an agent, and each column corresponds to a particular data attribute. The following attributes are included in the dataset:
 
 * **t**: time  
 *	**pX**: X-coordinate of the agent’s position  
