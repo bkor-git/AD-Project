@@ -65,7 +65,7 @@ The Build Files section provides practical information for users who want to exp
 
 
 ## Code
-Write explanation about the code here!!!
+This directory contains all the essential codebase for AD-Project. Here, you will find organized and modularized code to facilitate seamless development. We have structured it meticulously to enhance readability, maintainability, and ease of development
 ### Contributing 
 We welcome contributions from the community to make AD-Project even more awesome!
 Here's how you can contribute:
