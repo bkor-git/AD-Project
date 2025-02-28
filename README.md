@@ -1,5 +1,5 @@
 # Overview
-Welcome to AD-Project! This repository is home to a fantastic project that aims to generate a synthetic dataset using Unity environment. The purpose of the project is to detect anomaly in the crowd.
+Welcome to Anomaly Detection in Multi-Entity Multivariate Time Series Data Project! This repository is home to a fantastic project that aims to generate a synthetic dataset using Unity environment. The purpose of the project is to detect anomaly in the crowd.
 
 ## Table Of Contents 
 1. [Dataset](#dataset)
