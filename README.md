@@ -54,7 +54,7 @@ You can utilize these CSV files to perform various time-series analysis tasks, s
 ## Code
 Write explanation about the code here!!!
 ### Contributing 
-We welcome contributions from the community to make AD-Project even more awesome!
+We welcome contributions from the community to make this project even more awesome!
 Here's how you can contribute:
 ### Bug Reports 
 If you find any bugs or issues, please send an email and provide detailed information about the problem.
