@@ -1,5 +1,9 @@
+![Status](https://img.shields.io/badge/status-updating-yellow)
+# 🚧 Work in Progress 🚧
+This repository is still being updated. Features and code may change.
+
 # Overview
-Welcome to Anomaly Detection in Multi-Entity Multivariate Time Series Data Project! This repository is home to a fantastic project that aims to generate a synthetic dataset using Unity environment. The purpose of the project is to detect anomaly in the crowd.
+Welcome to the Anomaly Detection in Multi-Entity Multivariate Time Series Data Project! This repository is home to a fantastic project that aims to generate a synthetic dataset using the Unity environment. The purpose of the project is to detect anomalies in the crowd.
 
 ## Table Of Contents 
 1. [Dataset](#dataset)
@@ -17,7 +21,7 @@ Welcome to Anomaly Detection in Multi-Entity Multivariate Time Series Data Proje
 
 ## Dataset
 The CSV files contain time-series data of agents’ coordinates, acceleration, rotation, and
-identity. The data was exported from the Unity simulation for normal scenario and captured at 
+identity. The data was exported from the Unity simulation for the normal scenario and captured at 
 regular intervals of 0.1 (10 Hz) and 0.02 (50 Hz) seconds. Each row represents a specific 
 instance of measurement for an agent, and each column corresponds to a particular data 
 attribute. The following attributes are included in the dataset:
@@ -38,7 +42,7 @@ attribute. The following attributes are included in the dataset:
 *	**ID**: Unique identifier for each agent
 
 ### Unity Environment
-The exported data in this csv file originates from the transform section of the Unity environment, which encompasses the essential attributes of position, rotation, and scale. The position coordinates represent the spatial location of each agent withing the simulated environment, while rotation values indicate the orientation around Y-axis. The scale attribute, not included in this dataset, denotes the dimensions of the agent. 
+The exported data in this CSV file originates from the transform section of the Unity environment, which encompasses the essential attributes of position, rotation, and scale. The position coordinates represent the spatial location of each agent within the simulated environment, while rotation values indicate the orientation around the Y-axis. The scale attribute, not included in this dataset, denotes the dimensions of the agent. 
 
 ### Data Format
 The CSV file is structured in a comma-separated value format, with each row representing a single measurement of an agent. The column is organized as follows: t, pX, pY, pZ, aX, aY, aZ, reX, reY, reZ, rtX, rtY, rtZ, ID. 
@@ -47,12 +51,12 @@ The CSV file is structured in a comma-separated value format, with each row repr
 You can utilize these CSV files to perform various time-series analysis tasks, such as:
 *	Analyzing the evolution of the agent’s position, acceleration, and rotation over time. 
 *	Detecting patterns or anomalies in the movement behavior of agents.
-*	Applying machine learning or statistical techniques to predict anomalies or future position based on historical data.
+*	Applying machine learning or statistical techniques to predict anomalies or future positions based on historical data.
 
 ## Simulation
 
 ## Code
-Write explanation about the code here!!!
+Write an explanation about the code here!!!
 ### Contributing 
 We welcome contributions from the community to make this project even more awesome!
 Here's how you can contribute:
@@ -67,7 +71,7 @@ If you'd like to contribute directly, fork the repository, create a new branch, 
 This project is licensed under ...  - see the LICENSE.md file for details.
 
 ## Acknowledgements
-We would like to express our gratitude to the following:
+We want to express our gratitude to the following:
 * ...
 * ...
 
