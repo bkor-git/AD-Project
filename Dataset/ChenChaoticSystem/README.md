@@ -5,11 +5,11 @@ Here, we provide the code to **simulate and generate datasets** from multiple co
 ---
 
 ## Project Structure
-ChenDatasetProject/
+ChenChaoticSystem/
 │
-├─ chen_system.py        # Chen system dynamics
-├─ generate_data.py      # Simulate oscillators and handle parameter switching
-├─ save_dataset.py       # Generate datasets and save as CSV files
-├─ notebook.ipynb        # Example notebook showing how to use the code
-├─ README.md             # Project documentation
-└─ requirements.txt      # Optional, list of dependencies
+├─ src/ # Source code
+│ ├─ chen_system.py # Chen system dynamics
+│ ├─ generate_data.py # Simulate oscillators and handle parameter switching
+│ ├─ save_dataset.py # Generate datasets and save as CSV files
+│
+└─ README.md # Project documentation
