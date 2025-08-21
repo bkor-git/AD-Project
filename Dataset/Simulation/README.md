@@ -23,6 +23,3 @@ The Scripts section delves into the codes that power the simulation. It includes
 *	**Passenger**:  
 *	**PoissonArrival**: The code for controlling the arrival time of the agents in the scene.
 *	**Wander**: Script to control the green agents that are wandering around in the scene. 
-
-### Build Files
-The Build Files section provides practical information for users who want to experience the simulation firsthand. It includes instructions on how to run the executable files that bring your simulation to life and export the agent information as CSV files. 
