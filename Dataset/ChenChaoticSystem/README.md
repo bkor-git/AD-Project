@@ -9,4 +9,4 @@ Here, we provide the code to **simulate and generate datasets** from multiple co
    * [save_dataset.py](./src/save_dataset.py)
    * [generate_data.py](./src/generate_data.py)
    * [chen_system.py](./src/chen_system.py)
- * [README.md](./ChenChaoticSystem)
+ * [README.md]
