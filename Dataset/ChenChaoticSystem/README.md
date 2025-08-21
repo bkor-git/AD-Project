@@ -6,7 +6,7 @@ Here, we provide the code to **simulate and generate datasets** from multiple co
 ## File Structure
  * [tree-md](./tree-md)
  * [src](./AD-Project/Dataset/ChenChaoticSystem/src)
-   * [save_dataset.py](./AD-Project/Dataset/ChenChaoticSystem/src/save_dataset.py)
-   * [generate_data.py](./AD-Project/Dataset/ChenChaoticSystem/src/generate_data.py)
-   * [chen_system.py](./AD-Project/Dataset/ChenChaoticSystem/src/chen_system.py)
- * [README.md](./AD-Project/Dataset/ChenChaoticSystem)
+   * [save_dataset.py](./src/save_dataset.py)
+   * [generate_data.py](./src/generate_data.py)
+   * [chen_system.py](./src/chen_system.py)
+ * [README.md](./ChenChaoticSystem)
