@@ -5,6 +5,12 @@ This repository is still being updated. Features and code may change.
 # Overview
 This repository supplements our paper "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series," accepted in EUSIPCO 2025. It provides synthetic datasets for anomaly detection in **multi-entity multivariate time series data**, enabling reproducibility and further research on crowd anomaly detection.
 
+## Link to publications
+Anomaly Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series". In: Proceedings EUSIPCO 2025. https://doi.org/... (pdf here)
+
+Change Point Detection:
+B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest Change Point Detection". https://doi.org/... (pdf here).
+
 ## Table Of Contents 
 1. [Dataset](#dataset)
    - [Unity Environment](#unity-environment)
