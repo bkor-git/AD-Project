@@ -1,0 +1,17 @@
+# CITATION.cff
+cff-version: 1.2.0
+message: "If you use the resources in this repository, please cite our paper."
+title: "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series"
+authors:
+  - family-names: "Kor"
+    given-names: "Bahar"
+  - family-names: "Gaikwad"
+    given-names: "Bipin"
+  - family-names: "Patra"
+    given-names: "Abani"
+  - family-names: "Miller"
+    given-names: "Eric"
+doi: "..."   # replace with the paper’s DOI
+conference: "EUSIPCO"
+year: 2025
+url: "..."   # paper DOI link
