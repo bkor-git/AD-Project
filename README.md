@@ -13,22 +13,18 @@ B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest
 
 ## Table Of Contents 
 1. [Dataset](#dataset)
-   - [Unity Environment](#unity-environment)
-   - [Data Format](#data-format)
-   - [Usage](#usage)
-2. [Simulation](#simulation)
-3. [Code](#code)
-   - [Bug Reports](#bug-reports)
-   - [Feature Requests](#feature-requests)
-   - [Pull Requests](#pull-requests)
+   - [Chen Chaotic System](#ChenChaoticSystem)
+   - [Simulation](#unity-simulation)
+2. [Models](#model)
 4. [License](#license)
 5. [Acknowledgements](#acknowledgements)
 6. [Contact](#contact)
 
-## Simulation
+## Dataset
 
-## Code
+## Model
 Write an explanation about the code here!!!
+
 ### Contributing 
 We welcome contributions from the community to make this project even more awesome!
 Here's how you can contribute:
