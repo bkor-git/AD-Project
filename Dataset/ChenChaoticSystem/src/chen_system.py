@@ -25,7 +25,7 @@ def chen_env(t, y, N, a, b, c, lambda_env, epsilon1, epsilon2):
     Parameters
     ----------
     t : float
-        Current time (required by solvers, not used in autonomous system).
+        Current time.
     y : ndarray, shape (3*N + 1,)
         State vector for N oscillators plus environment.
         Ordered as [x1, y1, z1, x2, y2, z2, ..., w].
