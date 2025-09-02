@@ -11,7 +11,8 @@ authors:
     given-names: "Abani"
   - family-names: "Miller"
     given-names: "Eric"
-doi: "..."   # replace with the paper’s DOI
+type: paper
 conference: "EUSIPCO"
 year: 2025
+doi: "..."   # replace with the paper’s DOI
 url: "..."   # paper DOI link
