@@ -3,8 +3,7 @@
 This repository is still being updated. Features and code may change.
 
 # Overview
-Welcome to the Anomaly Detection in Multi-Entity Multivariate Time Series Data Project! 
-This repository supplements our paper "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series," accepted in EUSIPCO 2025. It provides synthetic datasets for anomaly detection in ""multi-entity multivariate time series data"", enabling reproducibility and further research on crowd anomaly detection.
+This repository supplements our paper "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series," accepted in EUSIPCO 2025. It provides synthetic datasets for anomaly detection in **multi-entity multivariate time series data**, enabling reproducibility and further research on crowd anomaly detection.
 
 ## Table Of Contents 
 1. [Dataset](#dataset)
