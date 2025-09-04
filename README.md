@@ -6,10 +6,13 @@ This repository is still being updated. Features and code may change.
 This repository supplements our paper "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series," accepted in EUSIPCO 2025. It provides synthetic datasets for anomaly detection (AD) and change point detection (CPD) in **multi-entity, multivariate time series data**, enabling reproducibility and further research on crowd anomaly detection.
 
 ## Link to publications
-Anomaly Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series". In: Proceedings EUSIPCO 2025. https://doi.org/... (pdf here)
+If you use this project for research, please cite the relevant publications:
 
-Change Point Detection:
-B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest Change Point Detection". https://doi.org/... (pdf here).
+- **Crowd Simulation (Train Station) Dataset:**  
+PaAnomaly Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series". In: Proceedings EUSIPCO 2025. https://doi.org/... (pdf here)
+
+- **Crowd Simulation (Bi-directional Corridor) and ChenChaotic System Datasets:**  
+Change Point Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest Change Point Detection". https://doi.org/... (pdf here).
 
 ## Table Of Contents 
 1. [Dataset](#dataset)
@@ -22,8 +25,8 @@ B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest
 ## Dataset
 This folder contains the datasets used for the evaluation of the method:  
 
-- **chenchaoticsystem/** – Synthetic dataset generated using Coupled Chen Chaotic Systems.  
-- **simulation/** – Synthetic datasets generated from Unity Environment. 
+- **chenchaoticsystem** – Synthetic dataset generated using Coupled Chen Chaotic Systems.  
+- **simulation** – Synthetic datasets generated from Unity Environment. 
 
 ## Model
 This folder contains the implementations of the different models:  
@@ -35,7 +38,7 @@ This folder contains the implementations of the different models:
 If you find any bugs or issues, please send an email and provide detailed information about the problem.
 
 ## License
-This project is licensed under ...  - see the LICENSE.md file for details.
+This project is licensed under the terms of the MIT license - see the LICENSE.txt file for details.
 
 ## Acknowledgements
 We want to express our gratitude to the following:
