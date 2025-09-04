@@ -5,16 +5,12 @@ In this project, we work with a number of agents to simulate crowd behavior in d
 <table>
   <tr>
     <td align="center">
-      <a href="gif/NormalSceneCloseUp.gif">
-        <img src="images/NormalSceneCloseUp.png" width="320">
-      </a><br>
-      Normal Scene Close-up
+      <img src="gif/NormalSceneCloseUp.gif" width="320"><br>
+      <b>Normal Scene Close-up</b>
     </td>
     <td align="center">
-      <a href="gif/AbnormalSceneCloseUp.gif">
-        <img src="images/AbnormalSceneCloseUp.png" width="320">
-      </a><br>
-      Abnormal Scene Close-up
+      <img src="gif/AbnormalSceneCloseUp.gif" width="320"><br>
+      <b>Abnormal Scene Close-up</b>
     </td>
   </tr>
 </table>
