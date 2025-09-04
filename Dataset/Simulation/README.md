@@ -1,6 +1,13 @@
 
-## Overview
-In this project, we work with a number of agents to simulate crowd behavior in different scenarios, such as a train station waiting area. We discover how patterns of movement can be formed from the simplest of rules that mimic crowd behavior in the real world. By the end, we have created a crowded scene with humanoid characters walking and avoiding each other as well as reaching their goals one step at a time.
+## Crowd Simulation with Unity
+In this project, we utilize **Unity<sup>®</sup>** to simulate crowd behavior with multiple agents in various scenarios, including a train station waiting area and a bi-directional corridor. 
+
+The simulation explores how complex patterns of movement can emerge from simple rules that mimic real-world crowd dynamics. By the end, we create a **crowded scene** with humanoid characters that:  
+- Walk around the environment  
+- Avoid collisions with each other  
+- Move step by step toward their goals
+
+This project demonstrates **agent-based modeling in Unity** for studying and visualizing realistic crowd behavior.
 
 <table>
   <tr>
@@ -31,25 +38,18 @@ In this project, we work with a number of agents to simulate crowd behavior in d
  * [README.md](./)
 
 ### Dataset
-The CSV files contain time-series data of agents’ coordinates, acceleration, rotation, and
-identity. The data was exported from the Unity simulation for the normal scenario and captured at 
-regular intervals of 0.1 (10 Hz) seconds. Each row represents a specific 
-instance of measurement for an agent, and each column corresponds to a particular data 
-attribute. The following attributes are included in the dataset:
+The CSV files contain **time-series data** of agents’ coordinates, acceleration, rotation, and
+identity number. 
+- The data was exported from the Unity simulation for the **normal** and **abnormal** scenarios - Captured at regular intervals of 0.1 (10 Hz) seconds.
+- Each **row** corresponds to a single measurement instance for an agent.
+- Each **column** responds to a specific feature.
 
+#### Features
 * **t**: time  
-*	**pX**: X-coordinate of the agent’s position  
-*	**pY**: Y-coordinate of the agent’s position  
-*	**pZ**: Z-coordinate of the agent’s position  
-*	**aX**: Acceleration in the X-axis  
-*	**aY**: Acceleration in the Y-axis  
-*	**aZ**: Acceleration in the Z-axis  
-*	**reX**: Rotation Euler in the X-axis  
-*	**reY**: Rotation Euler in the Y-axis  
-*	**reZ**: Rotation Euler in the Z-axis  
-*	**rtX**: Rotation Transform in the X-axis  
-*	**rtY**: Rotation Transform in the Y-axis  
-*	**rtZ**: Rotation Transform in the Z-axis  
+*	**pX, pY, pZ**: Agen position coordinates
+*	**aX, aY, aZ**: Agent acceleration along x, y, z axes 
+*	**reX, reY, reZ**: Agent rotation (Euler angles)
+*	**rtX, rtY, rtZ**: Agent rotation (transform)   
 *	**ID**: Unique identifier for each agent
 
 ### Unity Environment
@@ -59,13 +59,13 @@ The exported data in this CSV file originates from the transform section of the 
 The CSV file is structured in a comma-separated value format, with each row representing a single measurement of an agent. The column is organized as follows: t, pX, pY, pZ, aX, aY, aZ, reX, reY, reZ, rtX, rtY, rtZ, ID. 
 
 ### Usage
-You can utilize these CSV files to perform various time-series analysis tasks, such as:
-*	Analyzing the evolution of the agent’s position, acceleration, and rotation over time. 
-*	Detecting patterns or anomalies in the movement behavior of agents.
-*	Applying machine learning or statistical techniques to predict anomalies or future positions based on historical data.
+You can use the exported CSV files for a variety of **time-series analysis tasks**, including:
+- **Trajectory analysis**: Study the evolution of each agent’s position, acceleration, and rotation over time.  
+- **Pattern and anomaly detection**: Identify unusual behaviors or movement anomalies among agents.  
+- **Machine learning applications**: Train models to predict anomalies or forecast future agent positions based on historical data
 
-## Scripts
-The Scripts section delves into the codes that power the simulation. It includes explanations of the scripts responsible for simulating passenger behavior and managing events within the virtual train station waiting area.
+### Scripts
+This folder contains the Unity C# scripts that power the simulation for **train station waiting area**.
 * **DropCylinder**:  
 *	**ExportCsv**: 
 *	**Passenger**:  
