@@ -35,7 +35,9 @@ This project demonstrates **agent-based modeling in Unity** for studying and vis
    * [Test.cs](./Scripts/Test.cs)
    * [Wander.cs](./Scripts/Wander.cs)
  
- * [README.md](./)
+ * [gif](./gif)
+ *
+ * [images](./images)
 
 ### Dataset
 The CSV files contain **time-series data** of agents’ coordinates, acceleration, rotation, and
