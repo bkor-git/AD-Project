@@ -8,13 +8,27 @@ Chen, Guanrong & Ueta, Tetsushi. (1999). Yet Another Chaotic Attractor. Internat
 For further information about the environmental coupling, see:  
 C. Quintero-Quiroz, M.G. Cosenza, Collective behavior of chaotic oscillators with environmental coupling, Chaos, Solitons & Fractals, Volume 71, 2015, Pages 41-45, ISSN 0960-0779, https://doi.org/10.1016/j.chaos.2014.12.001.
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/chen-Normal.PNG" width="320"><br>
+      <b>Normal</b>
+    </td>
+    <td align="center">
+      <img src="images/chen-Abnormal.PNG" width="320"><br>
+      <b>Abnormal</b>
+    </td>
+  </tr>
+</table>
+
 
 ---
 ## Folder Structure
+ * [CSV](./AD-Project/Dataset/ChenChaoticSystem/CSV)
+   * [README.md](./CSV/README.md)
  * [src](./AD-Project/Dataset/ChenChaoticSystem/src)
    * [save_dataset.py](./src/save_dataset.py)
    * [generate_data.py](./src/generate_data.py)
    * [chen_system.py](./src/chen_system.py)
- * [CSV](./AD-Project/Dataset/ChenChaoticSystem/CSV)
-   * [README.md](./CSV/README.md)
+ * [images](./images)
  * [README.md](./)
