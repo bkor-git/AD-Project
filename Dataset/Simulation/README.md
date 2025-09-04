@@ -1,3 +1,7 @@
+
+## Overview
+In this project, we work with a number of agents to simulate crowd behaviour in different scenarios, such as a train station waiting area. We discover how patterns of movement can be formed from the simplest of rules that mimic crowd behaviour in the real world. By the end, we have created a crowded scene with humanoid characters walking and avoiding each other as well as reaching their goals one step at a time.
+
 ## Folder Structure
  * [BuildFiles](./)
  * [Scripts](./)
@@ -11,9 +15,6 @@
    * [Normal]
    * [Abnormal]
  * [README.md](./)
-
-## Overview
-In this project, we work with a number of agents to simulate crowd behaviour in different scenarios, such as a train station waiting area. We discover how patterns of movement can be formed from the simplest of rules that mimic crowd behaviour in the real world. By the end, we have created a crowded scene with humanoid characters walking and avoiding each other as well as reaching their goals one step at a time.
 
 ### Dataset
 The CSV files contain time-series data of agents’ coordinates, acceleration, rotation, and
