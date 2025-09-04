@@ -2,10 +2,23 @@
 ## Overview
 In this project, we work with a number of agents to simulate crowd behavior in different scenarios, such as a train station waiting area. We discover how patterns of movement can be formed from the simplest of rules that mimic crowd behavior in the real world. By the end, we have created a crowded scene with humanoid characters walking and avoiding each other as well as reaching their goals one step at a time.
 
-<p float="left">
-  <img src="gif/NormalSceneCloseUp.gif" width="320" />
-  <img src="gif/AbnormalSceneCloseUp.gif" width="320" />
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <a href="gif/NormalSceneCloseUp.gif">
+        <img src="images/NormalScene.png" width="320">
+      </a><br>
+      Normal Scene Close-up
+    </td>
+    <td align="center">
+      <a href="gif/AbnormalSceneCloseUp.gif">
+        <img src="images/AbnormalScene.png" width="320">
+      </a><br>
+      Abnormal Scene Close-up
+    </td>
+  </tr>
+</table>
+
 
 ## Folder Structure
  * [BuildFiles](./)
