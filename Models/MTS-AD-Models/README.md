@@ -10,7 +10,7 @@ https://github.com/imperial-qore/TranAD.git
 ## 📌 Usage:
 The `codes` folder contains the **updated and adapted code** from the original repository, with some modifications.
 
-You can refer to **`example_usage.ipynb`** to see how to set up the environment, load datasets, and run the models. This notebook provides step-by-step instructions to help you get started quickly.
+You can refer to **`Example_Usage.ipynb`** to see how to set up the environment, load datasets, and run the models. This notebook provides step-by-step instructions to help you get started quickly.
 
 ### 📈 Note:
 To run a model on a dataset, use the following command:
