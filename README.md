@@ -14,24 +14,25 @@ B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest
 ## Table Of Contents 
 1. [Dataset](#dataset)
 2. [Models](#model)
+3. [Bug Reports](#BugReports) 
 4. [License](#license)
 5. [Acknowledgements](#acknowledgements)
 6. [Contact](#contact)
 
 ## Dataset
+This folder contains the datasets used for the evaluation of the method:  
+
+- **chenchaoticsystem/** – Synthetic dataset generated using Coupled Chen Chaotic Systems.  
+- **simulation/** – Synthetic datasets generated from Unity Environment. 
 
 ## Model
-Write an explanation about the code here!!!
+This folder contains the implementations of the different models:  
+- **MTS-AD-Models** – Multivariate Time Series Anomaly Detection models. These are adapted implementations from the original GitHub repository: [TranAD-Repository](https://github.com/imperial-qore/TranAD.git)
+  
+- **SAE** – Simple AutoEncoder (SAE) implementation 
 
-### Contributing 
-We welcome contributions from the community to make this project even more awesome!
-Here's how you can contribute:
 ### Bug Reports 
 If you find any bugs or issues, please send an email and provide detailed information about the problem.
-### Feature Requests
-Have a cool idea about the simulations? Let us know by sending an email and describing the enhancement or scene you have in your mind.
-### Pull Requests 
-If you'd like to contribute directly, fork the repository, create a new branch, and submit a pull request. Make sure to follow our contribution guidelines.
 
 ## License
 This project is licensed under ...  - see the LICENSE.md file for details.
