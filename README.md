@@ -13,8 +13,6 @@ B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest
 
 ## Table Of Contents 
 1. [Dataset](#dataset)
-   - [Chen Chaotic System](#ChenChaoticSystem)
-   - [Simulation](#unity-simulation)
 2. [Models](#model)
 4. [License](#license)
 5. [Acknowledgements](#acknowledgements)
