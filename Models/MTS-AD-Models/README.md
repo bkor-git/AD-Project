@@ -5,6 +5,8 @@ This folder contains implementations and usage examples of Multivariate Time Ser
 Original Source Code:  
 https://github.com/imperial-qore/TranAD.git
 
+Which is Licensed under the BSD 3-Clause License. See the LICENSE file in the original repository for details.
+
 
 
 ## 📌 Usage:
