@@ -14,7 +14,7 @@ B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest
 ## Table Of Contents 
 1. [Dataset](#dataset)
 2. [Models](#model)
-3. [Bug Reports](#BugReports) 
+3. [Bug Reports](#Bug) 
 4. [License](#license)
 5. [Acknowledgements](#acknowledgements)
 6. [Contact](#contact)
@@ -31,7 +31,7 @@ This folder contains the implementations of the different models:
   
 - **SAE** – Simple AutoEncoder (SAE) implementation 
 
-### Bug Reports 
+### Bug
 If you find any bugs or issues, please send an email and provide detailed information about the problem.
 
 ## License
