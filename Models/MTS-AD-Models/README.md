@@ -8,7 +8,7 @@ https://github.com/imperial-qore/TranAD.git
 
 
 ## 📌 Usage:
-The `src` folder contains the **updated and adapted code** from the original repository, with some modifications.
+The `codes` folder contains the **updated and adapted code** from the original repository, with some modifications.
 
 You can refer to **`example_usage.ipynb`** to see how to set up the environment, load datasets, and run the models. This notebook provides step-by-step instructions to help you get started quickly.
 
