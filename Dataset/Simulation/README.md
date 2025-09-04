@@ -6,13 +6,13 @@ In this project, we work with a number of agents to simulate crowd behavior in d
   <tr>
     <td align="center">
       <a href="gif/NormalSceneCloseUp.gif">
-        <img src="images/NormalScene.png" width="320">
+        <img src="images/NormalSceneCloseUp.png" width="320">
       </a><br>
       Normal Scene Close-up
     </td>
     <td align="center">
       <a href="gif/AbnormalSceneCloseUp.gif">
-        <img src="images/AbnormalScene.png" width="320">
+        <img src="images/AbnormalSceneCloseUp.png" width="320">
       </a><br>
       Abnormal Scene Close-up
     </td>
