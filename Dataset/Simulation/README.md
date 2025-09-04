@@ -23,17 +23,18 @@ This project demonstrates **agent-based modeling in Unity** for studying and vis
 
 
 ## Folder Structure
- * [BuildFiles](./)
- * [Scripts](./)
+ * [BuildFiles](./BuildFiles)
+ * [CSV](./CSV)
+   * [Normal]
+   * [Abnormal]
+ * [Scripts](./Scripts)
    * [DropCylinder.cs](./Scripts/DropCylinder.cs)
    * [ExportCsv.cs](./Scripts/ExportCsv.cs)
    * [Passenger.cs](./Scripts/Passenger.cs)
    * [PoissonArrival.cs](./Scripts/PoissonArrival.cs)
    * [Test.cs](./Scripts/Test.cs)
    * [Wander.cs](./Scripts/Wander.cs)
- * [CSV](./)
-   * [Normal]
-   * [Abnormal]
+ 
  * [README.md](./)
 
 ### Dataset
