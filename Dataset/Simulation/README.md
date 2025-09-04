@@ -67,9 +67,14 @@ You can use the exported CSV files for a variety of **time-series analysis tasks
 - **Machine learning applications**: Train models to predict anomalies or forecast future agent positions based on historical data
 
 ### Scripts
-This folder contains the Unity C# scripts that power the simulation for **train station waiting area**.
+This folder contains the Unity C# scripts that power the simulation for the **train station waiting area**.
 * **DropCylinder**:  
 *	**ExportCsv**: 
 *	**Passenger**:  
 *	**PoissonArrival**: The code for controlling the arrival time of the agents in the scene.
 *	**Wander**: Script to control the green agents that are wandering around in the scene. 
+
+
+### references
+- [Writing XML log files in Unity](https://xeophin.net/en/blog/2010/05/12/writing-xml-log-files-unity-3d-using-c) – Tutorial on exporting files as XML.  
+- [Crowd Simulation Course (Unity Learn)](https://learn.unity.com/project/crowd-simulation) – Official Unity Learn project on simulating crowds and fleeing.  
