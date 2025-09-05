@@ -23,10 +23,15 @@ Change Point Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entit
 6. [Contact](#contact)
 
 ## Dataset
-This folder contains the datasets used for the evaluation of the method:  
+This folder contains the datasets used for evaluating the methods. You can either generate datasets using the provided codes and executable files, 
+or  
 
-- **chenchaoticsystem** – Synthetic dataset generated using Coupled Chen Chaotic Systems.  
-- **simulation** – Synthetic datasets generated from Unity Environment. 
+- **Request Full Dataset Access**  
+  The full dataset is too large to host on GitHub.
+  To request access, email [bahar.kor@tufts.edu] with the subject: "Dataset-Name Full Dataset Access Request" 
+
+  - **chenchaoticsystem** – Synthetic dataset generated using Coupled Chen Chaotic Systems.  
+  - **simulation** – Synthetic datasets generated from Unity Environment. 
 
 ## Model
 This folder contains the implementations of the different models:  
