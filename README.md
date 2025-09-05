@@ -8,8 +8,8 @@ This repository supplements our paper "Towards Real-Time Detection of Anomalous 
 ## Link to publications
 If you use this project for research, please cite the relevant publications:
 
-- **Crowd Simulation (Train Station) Dataset:**  
-PaAnomaly Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series". In: Proceedings EUSIPCO 2025. https://doi.org/... (pdf here)
+- **Crowd Simulation (Train Station) Dataset:**
+Anomaly Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series". In: Proceedings EUSIPCO 2025. https://doi.org/... (pdf here)
 
 - **Crowd Simulation (Bi-directional Corridor) and ChenChaotic System Datasets:**  
 Change Point Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest Change Point Detection". https://doi.org/... (pdf here).
