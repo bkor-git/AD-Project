@@ -1,0 +1,5 @@
+SET /a i= 0
+FOR /L %%j IN (1,1,N) DO (
+    SET /a i= i+1
+    exeFileName.exe
+)
