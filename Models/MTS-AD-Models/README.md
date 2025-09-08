@@ -33,7 +33,7 @@ python3 main.py --model <model> --dataset <dataset> --retrain --less
 
 You can use the parameters in src/params.json to set values in src/constants.py for each file.
 
->  **Disclaimer:** The implementations in this repository are **from the original TranAD GitHub repository** for ease of use and integration. They may not produce identical results to those reported in the original paper. For exact baseline results and codes, please refer to the original repositories linked in the TranAD paper.
+>  **Disclaimer:** The implementations in this folder are **from the original TranAD GitHub repository** for ease of use and integration. They may not produce identical results to those reported in the original paper. For exact baseline results and codes, please refer to the original repositories linked in the TranAD paper.
 
 
 >  **Important:** If you use the datasets provided in the `data/` folder, please cite them properly according to their original sources.
