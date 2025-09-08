@@ -60,17 +60,16 @@ identity number.
 
 #### Features
 * **t**: time  
-*	**pX, pY, pZ**: Agen position coordinates
-*	**aX, aY, aZ**: Agent acceleration along x, y, z axes 
-*	**reX, reY, reZ**: Agent rotation (Euler angles)
-*	**rtX, rtY, rtZ**: Agent rotation (transform)   
+*	**x, y, z**: Agen position coordinates
+*	**ax, ay, az**: Agent acceleration along x, y, z axes 
+*	**rx, ry, rz**: Agent rotation (transform)    
 *	**ID**: Unique identifier for each agent
 
 ### Unity Environment
 The exported data in this CSV file originates from the transform section of the Unity environment, which encompasses the essential attributes of position, rotation, and scale. The position coordinates represent the spatial location of each agent within the simulated environment, while rotation values indicate the orientation around the Y-axis. The scale attribute, not included in this dataset, denotes the dimensions of the agent. 
 
 ### Data Format
-The CSV file is structured in a comma-separated value format, with each row representing a single measurement of an agent. The column is organized as follows: t, pX, pY, pZ, aX, aY, aZ, reX, reY, reZ, rtX, rtY, rtZ, ID. 
+The CSV file is structured in a comma-separated value format, with each row representing a single measurement of an agent. The column is organized as follows: t, x, y, z, ax, ay, az, rx, ry, rz, ID. 
 
 ### Usage
 You can use the exported CSV files for a variety of **time-series analysis tasks**, including:
