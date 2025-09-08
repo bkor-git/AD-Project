@@ -21,6 +21,7 @@ This project demonstrates **agent-based modeling in Unity** for studying and vis
   </tr>
 </table>
 
+>  **Disclaimer:** The author is not a professional Unity developer. This simulation is provided "as is" for academic and learning purposes.
 
 ## Folder Structure
  * [BuildFiles](./BuildFiles)
