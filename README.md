@@ -16,6 +16,21 @@ Anomaly Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "Towards Real-Time D
 - **Crowd Simulation (Bi-directional Corridor) and ChenChaotic System Datasets:**  
 Change Point Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest Change Point Detection". https://doi.org/... (pdf here).
 
+## Citation
+### BibTeX
+```bibtex
+@inproceedings{bkor_AD_MEMTS,
+  author    = {Bahar Kor, Bipin Gaikwad, Abani Patra, and Eric Miller},
+  title     = {Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series},
+  booktitle = {Proceedings of the 32nd European Signal Processing Conference (EUSIPCO 2025)},
+  year      = {2025},
+  publisher = {IEEE},
+  doi       = {...},
+  url       = {...},
+  note      = {To Appear}
+}
+```
+
 ## Table Of Contents 
 1. [Dataset](#dataset)
 2. [Models](#model)
