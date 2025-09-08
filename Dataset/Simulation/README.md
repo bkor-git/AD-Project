@@ -21,7 +21,7 @@ This project demonstrates **agent-based modeling in Unity** for studying and vis
   </tr>
 </table>  
 
->  **Disclaimer:** The author is not a professional Unity developer. This simulation is provided "as is" for academic and learning purposes.
+
 
 ## Folder Structure
  * [BuildFiles](./BuildFiles)
@@ -75,6 +75,7 @@ This folder contains the Unity C# scripts that power the simulation for the **tr
 *	**PoissonArrival**: The code for controlling the arrival time of the agents in the scene.
 *	**Wander**: Script to control the green agents that are wandering around in the scene. 
 
+>  **Disclaimer:** The author is not a professional Unity developer. This simulation is provided "as is" for academic and learning purposes.  
 
 ### references
 - [Writing XML log files in Unity](https://xeophin.net/en/blog/2010/05/12/writing-xml-log-files-unity-3d-using-c) – Tutorial on exporting files as XML.  
