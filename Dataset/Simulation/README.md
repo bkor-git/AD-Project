@@ -21,7 +21,18 @@ This project demonstrates **agent-based modeling in Unity** for studying and vis
   </tr>
 </table>  
 
-
+<table>
+  <tr>
+    <td align="center">
+      <img src="gif/Normal_Scene_Collision.gif" width="320"><br>
+      <b>Normal Scene Close-up</b>
+    </td>
+    <td align="center">
+      <img src="gif/Abnormal_Scene_Collision.gif" width="320"><br>
+      <b>Abnormal Scene Close-up</b>
+    </td>
+  </tr>
+</table>  
 
 ## Folder Structure
  * [BuildFiles](./BuildFiles)
