@@ -13,6 +13,7 @@ References:
 2. Quintero-Quiroz, C., & Cosenza, M. G. (2015). 
    Collective behavior of chaotic oscillators with environmental coupling. 
    Chaos, Solitons & Fractals, 71, 41–45. https://doi.org/10.1016/j.chaos.2014.12.001
+3. https://en.wikipedia.org/wiki/Multiscroll_attractor --> Chen Attractor
 
 """
 
