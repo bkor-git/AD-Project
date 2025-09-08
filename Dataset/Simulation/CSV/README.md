@@ -5,4 +5,4 @@
 
 - **Request Full Dataset Access**  
   The full dataset is too large to host on GitHub.
-  To request access, email [bahar.kor@tufts.edu] with the subject: "Dataset-Name Full Dataset Access Request"
+  To request access, email [bahar.kor@tufts.edu] with the subject: "Simulation-Train Full Dataset Access Request"
