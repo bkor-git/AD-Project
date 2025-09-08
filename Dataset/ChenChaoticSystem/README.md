@@ -23,7 +23,6 @@ C. Quintero-Quiroz, M.G. Cosenza, Collective behavior of chaotic oscillators wit
   </tr>
 </table>
 
-
 ---
 ## Folder Structure
  * [CSV](./AD-Project/Dataset/ChenChaoticSystem/CSV)
