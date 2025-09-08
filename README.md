@@ -14,7 +14,7 @@ If you use this project for research, please cite the relevant publications:
 Anomaly Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series". In: Proceedings EUSIPCO 2025. https://doi.org/... (pdf here)
 
 - **Crowd Simulation (Bi-directional Corridor) and ChenChaotic System Datasets:**  
-Change Point Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest Change Point Detection". https://doi.org/... (pdf here).
+The citation for this work will be provided after the submission of the relevant paper.
 
 ## Citation
 ### BibTeX
@@ -63,9 +63,7 @@ If you find any bugs or issues, please send an email and provide detailed inform
 This project is licensed under the terms of the MIT license - see the LICENSE.txt file for details.
 
 ## Acknowledgements
-We want to express our gratitude to the following:
-* ...
-* ...
+This material is based upon work supported by the U.S. Department of Homeland Security under Grant Awards 22STESE00001-01-00, 22STESE00001-02-00, and 22STESE00001-03-02. The views and conclusions contained in this document are those of the authors and should not be interpreted as necessarily representing the official policies, either expressed or implied, of the U.S. Department of Homeland Security. ELM acknowledges support from the National Science Foundation's ID/R Program.
 
 ## Contact
 For any further information or assistance, please don’t hesitate to reach out to us at [bahar.kor@tufts.edu].
