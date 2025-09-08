@@ -14,7 +14,7 @@ If you use this project for research, please cite the relevant publications:
 Anomaly Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series". In: Proceedings EUSIPCO 2025. https://doi.org/... (pdf here)
 
 - **Crowd Simulation (Bi-directional Corridor) and ChenChaotic System Datasets:**  
-Change Point Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "On Multi-entity, Multivariate Quickest Change Point Detection". https://doi.org/... (pdf here).
+The citation for this work will be provided after the submission of the relevant paper.
 
 ## Citation
 ### BibTeX
