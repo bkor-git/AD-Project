@@ -1,4 +1,5 @@
-![Status](https://img.shields.io/badge/status-updating-yellow)
+![Status](https://img.shields.io/badge/status-updating-yellow) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE.txt)
 # 🚧 Work in Progress 🚧
 This repository is still being updated. Features and code may change.  
 
