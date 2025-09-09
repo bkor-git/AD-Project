@@ -1,6 +1,7 @@
-## Running the Executables
+> **Disclaimer:** These are executable files designed for use on Windows systems. **Use them at your own risk**. The authors are not responsible for any damage, data loss, or other issues that may result from running these files.  
 
-In this folder, we provide the executable files for **Train Station** and **Bi-directional Corridor Collision**, along with two helper scripts provided as `.txt` files. These executables run the simulation and export agent information as CSV files to your computer. 
+## Running the Executables  
+In this folder, we provide the executable files for **Train Station** and **Bi-directional Corridor Collision**, along with two helper scripts provided as `.txt` files. These executables run the simulation and export agent information as XML files to your computer. 
 
 > **Note:** Both files are provided as `.txt` for GitHub hosting. They must be renamed before use:
 > - Rename `launch_bat.txt` → `launch_bat.bat`  
@@ -14,9 +15,11 @@ In this folder, we provide the executable files for **Train Station** and **Bi-d
 3. **Run the scripts**
    - To see the batch file run in a terminal, double-click `launch_bat.bat`.  
    - To run the batch file silently, double-click `launch_vbs.vbs`.
+  
+4. **Preprocessing**
+   - To preprocess and convert the XML files to CSV, you can use the provided script.
 
 ## Exported Files Location
 The scripts export generated files to your **AppData** folder. You can find them here:
 `C:\Users<YourUsername>\AppData\Local<YourAppFolder>`
      
-> **Disclaimer:** These are executable files designed for use on Windows systems. Use them at your own risk. The authors are not responsible for any damage, data loss, or other issues that may result from running these files.
