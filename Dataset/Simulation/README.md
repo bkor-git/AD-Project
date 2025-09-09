@@ -85,7 +85,7 @@ This folder contains the Unity C# scripts that power the simulation for the **tr
 *	**PoissonArrival**: The code for controlling the arrival time of the agents in the scene.
 *	**Wander**: Script to control the green agents that are wandering around in the scene. 
 
->  **Disclaimer:** The author is not a professional Unity developer. This simulation is provided "as is" for academic and learning purposes only. New build files with customized parameters—such as agent count or the timing of anomaly events—may be requested via email.
+>  **Disclaimer:** The author is not a professional Unity developer. This simulation is provided "as is" for academic and learning purposes only. Requests for new build files with modified parameters, such as agent count or anomaly timing, may be submitted via email, but fulfillment is at the author’s sole discretion.
 
 ### references
 - [Writing XML log files in Unity](https://xeophin.net/en/blog/2010/05/12/writing-xml-log-files-unity-3d-using-c) – Tutorial on exporting files as XML.  
