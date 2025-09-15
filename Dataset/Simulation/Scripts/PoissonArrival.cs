@@ -9,7 +9,6 @@ public class PoissonArrival : MonoBehaviour
     public GameObject myPassenger;
     float xPos;
     float zPos;
-    float scale;
     int passengerCount = 0;
     int i;
     public float lambdaVal;
@@ -57,8 +56,8 @@ public class PoissonArrival : MonoBehaviour
         {
             yield return new WaitForSeconds(myPoissonFloat[i]);
             i++;
-            xPos = UnityEngine.Random.Range(-45, -40);
-            zPos = UnityEngine.Random.Range(-40, -35);
+            xPos = UnityEngine.Random.Range(-45, -43);
+            zPos = UnityEngine.Random.Range(-40, -38);
 
             GameObject clone = Instantiate(myPassenger, new Vector3(xPos, 0.03f, zPos), Quaternion.identity);
             clone.GetComponent<NavMeshAgent>();
@@ -68,7 +67,7 @@ public class PoissonArrival : MonoBehaviour
 
             passengerCount += 1;
         }
-        yield return new WaitForSeconds(70.0f);
+        yield return new WaitForSeconds(42.0f);
         Application.Quit();
     }
 

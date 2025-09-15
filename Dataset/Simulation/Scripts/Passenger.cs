@@ -12,8 +12,29 @@ public class Passenger : MonoBehaviour
     Animator anim;
     GameObject exit;
     NavMeshAgent agent;
+    private float closeEnough = 0.5f;
 
-
+    private void Update()
+    {
+        if (GameObject.FindObjectOfType<DropCylinder>().goToEnd)
+        { 
+            agent.SetDestination(ePoint.transform.position);
+            anim.SetTrigger("isRunning");
+            agent.speed = Random.Range(9, 10);
+            agent.angularSpeed = 500.0f;
+            
+            if (Mathf.Abs(agent.transform.position.x - ePoint.transform.position.x) <= closeEnough || Mathf.Abs(agent.transform.position.z - ePoint.transform.position.z) <= closeEnough)
+            {
+                Renderer[] lChildRenderers = agent.GetComponentsInChildren<Renderer>();
+                foreach (Renderer lRenderer in lChildRenderers)
+                {
+                    lRenderer.enabled = false;
+                }
+            }
+            
+        }
+  
+    }
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -36,37 +57,48 @@ public class Passenger : MonoBehaviour
         agent.ResetPath();
     }
 
+    public void DetectNewObstacle(Vector3 position)
+    {
+        agent.SetDestination(ePoint.transform.position);
+        anim.SetTrigger("isRunning");
+        agent.speed = Random.Range(9, 10);
+        agent.angularSpeed = 500.0f;
+    }
+
 
     private void OnTriggerEnter(Collider collider)
     {
-        
-
-        if (collider.tag.Equals("Entrance"))
+        if (!GameObject.FindObjectOfType<DropCylinder>().goToEnd)
         {
-            reachedEntranceDoor = true;
-            ResetAgent();
-            agent.SetDestination(trainDoors[Random.Range(0, trainDoors.Length)].transform.position);
-        }
-        
-        if (collider.tag.Equals("TrainDoor"))
-        {
-            reachedTrainDoor = true;
-            StartCoroutine(waitForTrainDoor());
-        }
-        
-        if (collider.tag.Equals("Exit"))
-        {
-            ResetAgent();
-            agent.SetDestination(ePoint.transform.position);
-        }
-        
-        if (collider.tag.Equals("EPoint"))
-        {
-            Renderer[] lChildRenderers = agent.GetComponentsInChildren<Renderer>();
-            foreach (Renderer lRenderer in lChildRenderers)
+            if (collider.tag.Equals("Entrance"))
             {
-                lRenderer.enabled = false;
+                reachedEntranceDoor = true;
+                ResetAgent();
+                agent.SetDestination(trainDoors[Random.Range(0, trainDoors.Length)].transform.position);
             }
+
+            if (collider.tag.Equals("TrainDoor"))
+            {
+                reachedTrainDoor = true;
+                StartCoroutine(waitForTrainDoor());
+            }
+
+            if (collider.tag.Equals("Exit"))
+            {
+                ResetAgent();
+                agent.SetDestination(ePoint.transform.position);
+            }
+            
+            if (collider.tag.Equals("EPoint"))
+            {
+                Renderer[] lChildRenderers = agent.GetComponentsInChildren<Renderer>();
+                foreach (Renderer lRenderer in lChildRenderers)
+                {
+                    lRenderer.enabled = false;
+                }
+               
+            }
+            
         }
         
     }
@@ -87,8 +119,11 @@ public class Passenger : MonoBehaviour
     {
         
         yield return new WaitForSeconds(0.01f);
-        ResetAgent();
-        agent.SetDestination(exit.transform.position);
+        if (!GameObject.FindObjectOfType<DropCylinder>().goToEnd)
+        {
+            ResetAgent();
+            agent.SetDestination(exit.transform.position);
+        }
         
     }
 }

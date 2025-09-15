@@ -1,8 +1,6 @@
-/*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 
 public class DropCylinder : MonoBehaviour
 {
@@ -11,27 +9,31 @@ public class DropCylinder : MonoBehaviour
     public GameObject obstacle;
     GameObject[] agents;
     GameObject[] wanders;
-    int time;
+    float timeInSeconds; // Change to float for time in seconds
     Vector3 position;
+
+
     void Start()
     {
-
-        agents = GameObject.FindGameObjectsWithTag("Player");
-        wanders = GameObject.FindGameObjectsWithTag("wander");
-        time = Random.Range(30000, 30500);
-        position = new Vector3(Random.Range(15, 40), 0.5f, Random.Range(-30, 0));
+        Time.timeScale = 1.0f;
+        agents = GameObject.FindGameObjectsWithTag("Avatars");
+        wanders = GameObject.FindGameObjectsWithTag("Wander");
+        timeInSeconds = 24.0f; // Set to the desired time in seconds
+        position = new Vector3(Random.Range(30, 32), 0.2f, Random.Range(-10, 10));
     }
-
 
     void Update()
     {
-
-
-        if (Time.frameCount == time)
+        // Compare Time.time (total time in seconds) with the desired time to instantiate
+        if (Time.time >= timeInSeconds)
         {
-            time = 0;
+            // Reset timeInSeconds to avoid repeated instantiations
+            timeInSeconds = float.MaxValue;
+
+            // Instantiate the obstacle
             Instantiate(obstacle, position, Quaternion.identity);
 
+            // Notify agents and wanderers of the new obstacle
             foreach (GameObject agent in agents)
             {
                 goToEnd = true;
@@ -43,11 +45,6 @@ public class DropCylinder : MonoBehaviour
                 goToEnd = true;
                 wander.GetComponent<Wander>().DetectNewObstacle(obstacle.transform.position);
             }
-            
-
         }
-
-
     }
 }
-*/

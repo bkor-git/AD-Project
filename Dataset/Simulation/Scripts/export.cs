@@ -50,9 +50,9 @@ public class Export : MonoBehaviour
 
             writer.WriteStartElement("tracking");
             writer.WriteEntityRef("locations");
-            writer.WriteEndElement(); 
+            writer.WriteEndElement();
 
-            writer.WriteEndElement(); 
+            writer.WriteEndElement();
             writer.WriteEndDocument();
         }
 
@@ -66,7 +66,7 @@ public class Export : MonoBehaviour
 
         logWriter = XmlWriter.Create(newPath, logSettings);
         logWriter.WriteStartDocument();
-        logWriter.WriteStartElement("locations"); 
+        logWriter.WriteStartElement("locations");
 
         InvokeRepeating("CollectData", 0, interval);
     }
@@ -86,7 +86,7 @@ public class Export : MonoBehaviour
             logWriter.WriteElementString("RY", trackedPlayer.transform.rotation.y.ToString());
             logWriter.WriteElementString("RZ", trackedPlayer.transform.rotation.z.ToString());
 
-            logWriter.WriteEndElement(); 
+            logWriter.WriteEndElement();
             logWriter.Flush();
         }
     }
@@ -95,7 +95,7 @@ public class Export : MonoBehaviour
     {
         if (logWriter != null)
         {
-            logWriter.WriteEndElement();  
+            logWriter.WriteEndElement();
             logWriter.WriteEndDocument();
             logWriter.Close();
         }
