@@ -19,17 +19,17 @@ The citation for this work will be provided after the submission of the relevant
 
 ## Citation
 ### BibTeX
-```bibtex
-@inproceedings{bkor_AD_MEMTS,
-  author    = {Bahar Kor, Bipin Gaikwad, Abani Patra, and Eric Miller},
-  title     = {Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series},
-  booktitle = {Proceedings of the 32nd European Signal Processing Conference (EUSIPCO 2025)},
-  year      = {2025},
-  publisher = {IEEE},
-  doi       = {...},
-  url       = {...},
-  note      = {To Appear}
-}
+```
+@INPROCEEDINGS{bkor_AD_MEMTS,
+  author={Kor, Bahar and Gaikwad, Bipin and Patra, Abani and Miller, Eric},
+  booktitle={2025 33nd European Signal Processing Conference (EUSIPCO)}, 
+  title={Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1742-1746},
+  doi=...,
+  note= {to appear, October 2025}}
 ```
 
 ## Table Of Contents 
