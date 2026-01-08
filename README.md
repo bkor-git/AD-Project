@@ -12,24 +12,24 @@ This repository supplements our paper "Towards Real-Time Detection of Anomalous 
 If you use this project for research, please cite the relevant publications:
 
 - **Crowd Simulation (Train Station) Dataset:**
-Anomaly Detection: B. Kor, B. Gaikwad, A. Patra, E. Miller, "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series". In: Proceedings EUSIPCO 2025. https://doi.org/... (pdf here)
+B. Kor, B. Gaikwad, A. Patra and E. L. Miller, "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series," 2025 33rd European Signal Processing Conference (EUSIPCO), Palermo, Italy, 2025, pp. 1742-1746, doi: 10.23919/EUSIPCO63237.2025.11226395.
 
 - **Crowd Simulation (Bi-directional Corridor) and ChenChaotic System Datasets:**  
-The citation for this work will be provided after the submission of the relevant paper.
+Kor, B., Gaikwad, B., Patra, A. and Miller, E.L., 2025. On Multi-entity, Multivariate Quickest Change Point Detection. arXiv preprint arXiv:2509.18310.
 
 ## Citation
 ### BibTeX
 ```
-@INPROCEEDINGS{bkor_AD_MEMTS,
-  author={Kor, Bahar and Gaikwad, Bipin and Patra, Abani and Miller, Eric},
-  booktitle={2025 33nd European Signal Processing Conference (EUSIPCO)}, 
+@INPROCEEDINGS{11226395,
+  author={Kor, Bahar and Gaikwad, Bipin and Patra, Abani and Miller, Eric L.},
+  booktitle={2025 33rd European Signal Processing Conference (EUSIPCO)}, 
   title={Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series}, 
   year={2025},
   volume={},
   number={},
   pages={1742-1746},
-  doi=...,
-  note= {to appear, October 2025}}
+  keywords={Accelerometers;Training;Time series analysis;Autoencoders;Computer architecture;Data models;Real-time systems;Transient analysis;Anomaly detection;Wireless fidelity;Crowds;Anomaly Detection;Multi-Entity;Multivariate time series},
+  doi={10.23919/EUSIPCO63237.2025.11226395}}
 ```
 
 ## Table Of Contents 
