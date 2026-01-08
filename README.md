@@ -32,6 +32,18 @@ Kor, B., Gaikwad, B., Patra, A. and Miller, E.L., 2025. On Multi-entity, Multiva
   doi={10.23919/EUSIPCO63237.2025.11226395}}
 ```
 
+```
+@misc{kor2025multientitymultivariatequickestchange,
+      title={On Multi-entity, Multivariate Quickest Change Point Detection}, 
+      author={Bahar Kor and Bipin Gaikwad and Abani Patra and Eric L. Miller},
+      year={2025},
+      eprint={2509.18310},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2509.18310}, 
+}
+```
+
 ## Table Of Contents 
 1. [Dataset](#dataset)
 2. [Models](#model)
