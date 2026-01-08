@@ -3,7 +3,7 @@
 # 🚧 Work in Progress 🚧
 This repository is still being updated. Features and code may change.  
 
->  **Note:** Finalized features and code will be available by the end of October, following the publication of our accepted conference paper at the 33rd European Signal Processing Conference (EUSIPCO 2025). Stay tuned for updates!
+>  **Note:** Finalized features and code will be available soon!
 
 # Overview
 This repository supplements our paper "Towards Real-Time Detection of Anomalous Behavior in Crowds from Accelerometer Time Series," accepted in EUSIPCO 2025. It provides synthetic datasets for anomaly detection (AD) and change point detection (CPD) in **multi-entity, multivariate time series data**, enabling reproducibility and further research on crowd anomaly detection.
